@@ -1,4 +1,5 @@
-# App Title: The Hall of Heroes
+# App Title: Hogwarts School of Witchcraft and Wizardry
+
 
 ### App Description: A react application where you can aply to the Hogwarts School of Witchcraft and Wizardry. You will be given a student application form to submit to the school. Once you fill out the information required on the form, you submit it for request approval. You might get accepted or rejected. 
 
@@ -49,7 +50,7 @@
 
 ### Wiredframes
 
-![webimage]()
+![webimage](https://whimsical.com/project-2-SryXi2584x7vsQhzMJ31aL)
 
 ![real website]()
 

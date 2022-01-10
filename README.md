@@ -100,7 +100,7 @@
 | Debugging of the user input/API call                  |    H     |      2hrs      |           
 | Web page layout                                       |    H     |      3hrs      |           
 | CSS styling of character info from search API results |    M     |      6hrs      |           
-| CSS styling for backgound images                      |    L     |      3hrs      |           
-| Create buttom to save favorite character              |    L     |      3hrs      |           
-| Create an interactive serch botton                    |    L     |      3hrs      |           
-| Total                                                 |    H     |     37hrs      |           
+| CSS styling for Componenets                           |    L     |      3hrs      |                    
+| Create an interactive serch botton                    |    L     |      3hrs      | 
+|Implements Post MVPs/ Clean up                         |    L     |      4hrs      |
+| Total                                                 |    H     |      38rs      |           

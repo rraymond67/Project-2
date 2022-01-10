@@ -1,7 +1,7 @@
 # App Title: Hogwarts School of Witchcraft and Wizardry
 
 
-### App Description: A react application where you can aply to the Hogwarts School of Witchcraft and Wizardry and choose which house to inlist in. You will be given a student application form to submit to the school. Once you fill out the information required on the form, you submit it for request approval. If you dont feel confident about your application you can delete it. You can also check a list of Alumni (You might get accepted or rejected). 
+### App Description: A react application where you can apply to the Hogwarts School of Witchcraft and Wizardry and choose which house to inlist in. You will be given a student application form to submit to the school. Once you fill out the information required on the form, you submit it for request approval. If you dont feel confident about your application you can delete it (or edit it). You can also check a list of Alumni(You might get accepted or rejected). 
 
 ### Air-table API: "https://api.airtable.com/v0/app3GZegOGWXeUvpY/Students
 
@@ -51,6 +51,7 @@
 ### Wiredframes
 
 ![webimage](https://i.imgur.com/7wJ1eKb.png)
+![webimage](https://i.imgur.com/JEGn8vW.png)
 
 
 ### Component Hierarchy:
@@ -69,8 +70,9 @@
 ### Post-MVP:
 
 **Add music to the background**
+**Add a count number to the home page that shows the number of applicants for that house**
 **Add a edit button for the applicantsn**
-**Show if applicants are accepted or rejectect **
+**Show if applicants are accepted or rejectect**
 **Add a toast effect that display a message after you click buttons**
 
 

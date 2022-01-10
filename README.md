@@ -71,6 +71,8 @@
 **Add music to the background**
 **Add a edit button for the applicantsn**
 **Show if applicants are accepted or rejectect **
+**Add a toast effect that display a message after you click buttons**
+
 
 ### Goals:
 

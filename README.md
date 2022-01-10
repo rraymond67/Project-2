@@ -1,7 +1,7 @@
 # App Title: Hogwarts School of Witchcraft and Wizardry
 
 
-### App Description: A react application where you can aply to the Hogwarts School of Witchcraft and Wizardry. You will be given a student application form to submit to the school. Once you fill out the information required on the form, you submit it for request approval. You might get accepted or rejected. 
+### App Description: A react application where you can aply to the Hogwarts School of Witchcraft and Wizardry and choose which house to inlist in. You will be given a student application form to submit to the school. Once you fill out the information required on the form, you submit it for request approval. If you dont feel confident about your application you can delete it. You can also check a list of Alumni (You might get accepted or rejected). 
 
 ### Air-table API: "https://api.airtable.com/v0/app3GZegOGWXeUvpY/Students
 
@@ -50,25 +50,27 @@
 
 ### Wiredframes
 
-![webimage](https://i.imgur.com/aCxNXTH.png)
+![webimage](https://i.imgur.com/7wJ1eKb.png)
 
 
 ### Component Hierarchy:
 
-![Matrix]()
+![webimage](https://i.imgur.com/S0KXuBf.png)
 
 ### MVP:
 
-- **Add a gif background of the Hogwarts School**
-- **Add a book where the search result will appear**
-- **Add a text description of the character searched**
-- **Put the character name, their alias and what house they are from**
+- **The application button willl send you to a form to Apply to a specific house**
+- **Use axios to GET the data from Air Table**
+- **Use axios to POST new data to the api**
+- **Add a delete button to remove data from the Air table**
+- **Add a Alumni button that will show the previous students from the house**
 - **Add a special effect for the search buttons**
 
 ### Post-MVP:
 
 **Add music to the background**
-**Add a favorite character button**
+**Add a edit button for the applicantsn**
+**Show if applicants are accepted or rejectect **
 
 ### Goals:
 

@@ -52,7 +52,10 @@
 
 ![webimage](https://i.imgur.com/aCxNXTH.png)
 
-![real website]()
+
+### Component Hierarchy:
+
+![Matrix]()
 
 ### MVP:
 
@@ -79,9 +82,6 @@
 | Jan 14 | CSS styling/ add more Post MVP if possible        | 
 | Jan 18 | Presentations                                     | 
 
-### Priority Matrix:
-
-![Matrix]()
 
 ### Timeframes:
 

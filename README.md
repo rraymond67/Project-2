@@ -50,7 +50,7 @@
 
 ### Wiredframes
 
-![webimage](https://whimsical.com/project-2-SryXi2584x7vsQhzMJ31aL)
+![webimage](https://i.imgur.com/aCxNXTH.png)
 
 ![real website]()
 

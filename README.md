@@ -65,15 +65,15 @@
 - **Use axios to POST new data to the api**
 - **Add a delete button to remove data from the Air table**
 - **Add a Alumni button that will show the previous students from the house**
-- **Add a special effect for the search buttons**
+- **Add a special effect to buttons**
+- **Show if applicants are accepted or rejectect**
 
 ### Post-MVP:
 
-**Add music to the background**
-**Add a count number to the home page that shows the number of applicants for that house**
-**Add a edit button for the applicantsn**
-**Show if applicants are accepted or rejectect**
-**Add a toast effect that display a message after you click buttons**
+- **Add music to the background**
+- **Add a count number to the home page that shows the number of applicants for that house**
+- **Add a edit button for the applicantsn**
+- **Add a toast effect that display a message after you click buttons**
 
 
 ### Goals:
@@ -81,28 +81,28 @@
 | Day    | Deliverable                                       | Status   |
 | ------ | ------------------------------------------------- | -------- |
 | Jan 09 | Air-table SetUp /  Repo ReadMe/                   | Complete |
-| Jan 10 | Student inputs/ Poject Approval                   | 
-| Jan 11 | npm installs/ Components setups                   |
-| Jan 12 | MVP implimantation/ Post MVP                      | 
-| Jan 13 | Post MVP implimantation                           |
-| Jan 14 | CSS styling/ add more Post MVP if possible        | 
+| Jan 10 | Student inputs/ Poject Approval                   | Complete |
+| Jan 11 | npm installs/ Components setups                   | Complete |
+| Jan 12 | MVP implimantation/ Post MVP                      | Complete |
+| Jan 13 | Post MVP implimantation                           | Complete |
+| Jan 14 | CSS styling/ add more Post MVP if possible        | Complete |
 | Jan 18 | Presentations                                     | 
 
 
 ### Timeframes:
 
-| Component                                             | Priority | Estimated Time | 
-| ----------------------------------------------------- | :------: | :------------: | 
-| JS setup, Air-table Api                               |    M     |      1hrs      |     
-| Setting up API and GET axios function                 |    H     |      4hrs      |              
-| Response data setup/fetching                          |    H     |      2hrs      |            
-| Filter through the response data                      |    H     |      3hrs      |           
-| Set up components files                               |    H     |      3hrs      |           
-| Incorporating the user input and API call             |    H     |      4hrs      |           
-| Debugging of the user input/API call                  |    H     |      2hrs      |           
-| Web page layout                                       |    H     |      3hrs      |           
-| CSS styling of character info from search API results |    M     |      6hrs      |           
-| CSS styling for Componenets                           |    L     |      3hrs      |                    
-| Create an interactive serch botton                    |    L     |      3hrs      | 
-|Implements Post MVPs/ Clean up                         |    L     |      4hrs      |
-| Total                                                 |    H     |      38rs      |           
+| Component                                             | Priority | Estimated Time | Actual Time |
+| ----------------------------------------------------- | :------: | :------------: | :----------:|
+| JS setup, Air-table Api                               |    M     |      1hr       |     1hr     |
+| Setting up API and GET axios function                 |    H     |      4hrs      |     3hrs    |   
+| Response data setup/fetching                          |    H     |      2hrs      |     2hrs    |  
+| Filter through the response data                      |    H     |      3hrs      |     4hrs    |
+| Set up components files                               |    H     |      3hrs      |     4hrs    |
+| Incorporating the user input and API call             |    H     |      4hrs      |     4hrs    |
+| Debugging of the user input/API call                  |    H     |      2hrs      |     4hrs    |
+| Web page layout                                       |    H     |      3hrs      |     4hrs    |
+| CSS styling of applicants's info                      |    M     |      6hrs      |     8hrs    |
+| CSS styling for Componenets                           |    L     |      3hrs      |     6hrs    |        
+| Create an interactive serch botton                    |    L     |      3hrs      |     2hrs    |
+| Implements Post MVPs/ Clean up                        |    L     |      4hrs      |     2hrs    |
+| Total                                                 |    H     |      38rs      |     44hrs   | 

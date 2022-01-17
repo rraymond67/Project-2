@@ -3,6 +3,7 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import Navbar from './Navbar'
 import '../App.css';
+import {Link} from 'react-router-dom'
 
 const url = `https://hp-api.herokuapp.com/api/characters`
 
@@ -29,7 +30,7 @@ export default function AlumniList() {
   }, [])
 
   return (
-    <div>
+    <div className='old'>
       <div>
       <Navbar />
       </div>
@@ -91,7 +92,14 @@ export default function AlumniList() {
             )}
       </div> 
       <br />
-    </div>
+      </div>
+      <footer>
+        <small>© 2022 Rod Raymond. All rights reserved.</small>
+        <br/>
+        <Link to='https://www.linkedin.com/in/rod-raymond-281a0284/' >
+          <img className='linkin' src='/assets/LinkIn.png' />
+        </Link>
+        </footer>
     </div>
   )
 }

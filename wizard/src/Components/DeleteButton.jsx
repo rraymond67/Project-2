@@ -9,5 +9,5 @@ export default function DeleteButton(props) {
     toast("Application Deleted")
     props.setToggle(prevToggle => !prevToggle)
   }
-  return <button onClick={handleDelete}>Delete Application</button>
+  return <button className='delete' onClick={handleDelete}>Delete Application</button>
 }

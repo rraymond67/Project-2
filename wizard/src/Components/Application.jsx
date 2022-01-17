@@ -5,6 +5,7 @@ import { toast } from 'react-toastify';
 import Form from './Form'
 import api from '../services/apiConfig'
 import Navbar from './Navbar';
+import {Link} from 'react-router-dom'
 
 export default function Application() {
   const navigate = useNavigate()
@@ -53,7 +54,8 @@ export default function Application() {
       <div>
       <Navbar />
       </div>
-      <h1>Student Application</h1>
+      <h1 className='student-application'>Student Application</h1>
+      <div className='application-page'>
       <Form
         input={input}
         handleSubmit={handleSubmit}
@@ -61,6 +63,14 @@ export default function Application() {
         handleNumberInput={handleNumberInput}
         type={"Create"}     
       />
+      </div>
+      <footer className='application-footer'>
+        <small className='application-text'>© 2022 Rod Raymond. All rights reserved.</small>
+        <br/>
+        <Link to='https://www.linkedin.com/in/rod-raymond-281a0284/' >
+          <img className='linkin' src='/assets/LinkIn.png' />
+        </Link>
+        </footer>
     </div>
   )
 }

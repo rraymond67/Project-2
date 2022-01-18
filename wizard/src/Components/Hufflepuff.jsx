@@ -44,14 +44,14 @@ export default function Hufflepuff() {
                 <img className='status-image' src={student.fields?.age >18 ? rejected : approved} alt="status" />
               </div>
               <div className='detail'>
-                <h1>Name: {student.fields?.name}</h1>
-                <h2>Age: {student.fields?.age}</h2>
-                <h2>Ancestry: {student.fields?.ancestry}</h2>
-                <h2>Address: {student.fields?.address}</h2>
+                <h1 className='inside'>Name: {student.fields?.name}</h1>
+                <h2 className='inside'>Age: {student.fields?.age}</h2>
+                <h2 className='inside'>Ancestry: {student.fields?.ancestry}</h2>
+                <h2 className='inside'>Address: {student.fields?.address}</h2>
                 <DeleteButton studentId={student.id} setToggle={setToggle} />
               </div>
               <div className='essay'>
-                <p>{student.fields?.essay}</p>
+              <p className='text'>{student.fields?.essay}</p>
               </div>
             </div>
             )

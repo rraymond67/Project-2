@@ -3,7 +3,9 @@ import{Link} from 'react-router-dom'
 export default function Navbar() {
   return (
     <nav className='navigation'>
-      <h1>Hogwarts School of Witchcraft and Wizardry</h1>
+      <Link to="/">
+      <h1 className='nav-text'>Hogwarts School of Witchcraft and Wizardry</h1>
+      </Link>
       <ul className='nav-items'>
         <li>
           <Link className='bar' to="/">HOME</Link>

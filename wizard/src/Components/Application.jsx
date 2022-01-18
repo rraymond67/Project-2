@@ -43,7 +43,7 @@ export default function Application() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const fields = input;
-    const res = await api.post("", { fields })
+    await api.post("", { fields })
     setInput(default_input);
     toast("New Character Created")
     navigate("/")
@@ -68,7 +68,7 @@ export default function Application() {
         <small className='application-text'>© 2022 Rod Raymond. All rights reserved.</small>
         <br/>
         <Link to='https://www.linkedin.com/in/rod-raymond-281a0284/' >
-          <img className='linkin' src='/assets/LinkIn.png' />
+          <img className='linkin' src='/assets/LinkIn.png' alt='link in link'/>
         </Link>
         </footer>
     </div>

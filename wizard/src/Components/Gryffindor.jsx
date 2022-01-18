@@ -17,7 +17,7 @@ export default function Gryffindor() {
   useEffect(() => {
     const fetchStudents = async () => {
       const res = await api.get()
-      const filterResponse = res.data.records.filter(element => element.fields.house =="Gryffindor")
+      const filterResponse = res.data.records.filter(element => element.fields.house ==="Gryffindor")
       setStudents(filterResponse)
     }
     fetchStudents(); 
@@ -63,7 +63,7 @@ export default function Gryffindor() {
         <small>© 2022 Rod Raymond. All rights reserved.</small>
         <br/>
         <Link to='https://www.linkedin.com/in/rod-raymond-281a0284/' >
-          <img className='linkin' src='/assets/LinkIn.png' />
+          <img className='linkin' src='/assets/LinkIn.png' alt='link in link'/>
         </Link>
         </footer>
     </div>

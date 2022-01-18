@@ -15,7 +15,7 @@ export default function Ravenclaw() {
   useEffect(() => {
     const fetchStudents = async () => {
       const res = await api.get()
-      const filterResponse = res.data.records.filter(element => element.fields.house == "Ravenclaw")
+      const filterResponse = res.data.records.filter(element => element.fields.house === "Ravenclaw")
       setStudents(filterResponse)
     }
     fetchStudents();
@@ -64,7 +64,7 @@ console.log(students)
         <small>© 2022 Rod Raymond. All rights reserved.</small>
         <br/>
         <Link to='https://www.linkedin.com/in/rod-raymond-281a0284/' >
-          <img className='linkin' src='/assets/LinkIn.png' />
+          <img className='linkin' src='/assets/LinkIn.png' alt='link in link'/>
         </Link>
         </footer>
     </div>

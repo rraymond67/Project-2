@@ -16,10 +16,10 @@ export default function AlumniList() {
   useEffect(() => {
     const fetchStudents = async () => {
       const res = await axios.get(url)
-      const filterGryffindor = res.data.filter(element => element.hogwartsStudent == true && element.house == "Gryffindor")
-      const filterHufflepuff= res.data.filter(element => element.hogwartsStudent == true && element.house == "Hufflepuff");
-      const filterRavenclaw= res.data.filter(element => element.hogwartsStudent == true && element.house == "Ravenclaw");
-      const filterSlytherin= res.data.filter(element => element.hogwartsStudent == true && element.house == "Slytherin");
+      const filterGryffindor = res.data.filter(element => element.hogwartsStudent === true && element.house === "Gryffindor")
+      const filterHufflepuff= res.data.filter(element => element.hogwartsStudent === true && element.house === "Hufflepuff");
+      const filterRavenclaw= res.data.filter(element => element.hogwartsStudent === true && element.house === "Ravenclaw");
+      const filterSlytherin= res.data.filter(element => element.hogwartsStudent === true && element.house === "Slytherin");
       setGryffindor(filterGryffindor);
       setHufflepuff(filterHufflepuff);
       setRavenclaw(filterRavenclaw);
@@ -97,7 +97,7 @@ export default function AlumniList() {
         <small>© 2022 Rod Raymond. All rights reserved.</small>
         <br/>
         <Link to='https://www.linkedin.com/in/rod-raymond-281a0284/' >
-          <img className='linkin' src='/assets/LinkIn.png' />
+          <img className='linkin' src='/assets/LinkIn.png' alt='link in link'/>
         </Link>
         </footer>
     </div>
